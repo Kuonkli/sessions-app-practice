@@ -1,0 +1,71 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tab-button.active {
+    background: #4CAF50;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error {
+    background: #ffdddd;
+    color: #d8000c;
+}
+
+.success {
+    background: #ddffdd;
+    color: #4F8A10;
+}
+
+.theme-switcher {
+    margin-top: 20px;
+}
