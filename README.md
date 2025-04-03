@@ -19,8 +19,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/ваш-репозиторий/auth-system.git
-cd auth-system
+git clone https://github.com/Kuonkli/sessions-app-practice.git
+cd sessions-app-practice
 ```
 
 ### 2. Установка зависимостей
